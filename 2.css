@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .toolbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .toolbar label, .toolbar input, .toolbar select {
+    margin-left: 10px;
+  }
+  
+  .canvas {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .text-element {
+    position: absolute;
+    cursor: move;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px dashed #ccc;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+  }
+  
+  .text-element:focus {
+    outline: none;
+    border: 1px solid #000;
+  }
+  
+  .image-element {
+    position: absolute;
+    cursor: move;
+    max-width: ;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
