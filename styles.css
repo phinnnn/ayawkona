@@ -75,7 +75,7 @@ body {
 .header {
   min-height: 600px;
   background-image: radial-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)),
-    url("Picturess/1.png");
+    url("PICTURE/Home.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -177,15 +177,15 @@ nav {
 }
 
 .portfolio__card:nth-child(1)::after {
-  content: "Portraits";
+  content: "Travel Tips";
 }
 
 .portfolio__card:nth-child(2)::after {
-  content: "Weddings";
+  content: "Summer Trip";
 }
 
 .portfolio__card:nth-child(3)::after {
-  content: "Fashions";
+  content: "Adventure Blogs";
 }
 
 .portfolio__content {
@@ -209,10 +209,12 @@ nav {
 
 .service {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("assets/service.jpg");
+    url("PICTURE/Serv.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+
 }
 
 .service__container .section__header {
@@ -322,7 +324,7 @@ nav {
 
 .blog {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("assets/blog.jpg");
+    url("PICTURE/Home.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
